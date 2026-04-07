@@ -26,7 +26,7 @@ Templated NLG library used by caid-agent and assistant. Lacks docs, CLAUDE.md, a
 1. Backup. 2. Add CLAUDE.md (claude-md-management skill). 3. Materialise bundle. 4. test-matrix-generator ×4. 5. Add JSON-schema validators. 6. Add readability scorer. 7. PHI redaction tests. 8. 100% pass. 9. Docs.
 
 ## 5. SESSION PROMPT
-> Continue workspace healthcare pain-points refactor for **prompt-engine**. Read `~/health-agent-workspace/_workspace_plans/prompt-engine/healthcare-pain-points.md`. Back up to `versions/v2/`. Generate CLAUDE.md via `claude-md-management:revise-claude-md`. Materialise bundle into `plans/healthcare-pain-points/`. Run `test-matrix-generator` per UC (UC-PE-01..04) → ≥100 scenarios each. Run `v-model-test`. Use real FHIR fixture data from BT — no in-memory dicts. Implement readability scorer + PHI redaction. Run scenarios at 100% pass. Update README, new CLAUDE.md, docs/, INTEROP.md. Honour all workspace memory rules.
+> Continue workspace healthcare pain-points refactor for **prompt-engine**. Read `~/health-agent-workspace/_workspace_plans/prompt-engine/prompt-engine-healthcare-pain-points.md`. Back up to `versions/v2/`. Generate CLAUDE.md via `claude-md-management:revise-claude-md`. Materialise bundle into `plans/healthcare-pain-points/`. Run `test-matrix-generator` per UC (UC-PE-01..04) → ≥100 scenarios each. Run `v-model-test`. Use real FHIR fixture data from BT — no in-memory dicts. Implement readability scorer + PHI redaction. Run scenarios at 100% pass. Update README, new CLAUDE.md, docs/, INTEROP.md. Honour all workspace memory rules.
 
 ## 6. DOC_UPDATES
 README.md, NEW CLAUDE.md, docs/templates.md, docs/test-strategy.md, INTEROP.md.

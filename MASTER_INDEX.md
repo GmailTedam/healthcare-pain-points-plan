@@ -18,17 +18,17 @@ Each bundle is a single self-contained markdown file containing: REQUIREMENTS (R
 
 | # | Repo | Bundle | State | Phase B mode |
 |---|---|---|---|---|
-| 1 | global-agent-registry (GHARRA) | [bundle](./global-agent-registry/healthcare-pain-points.md) | Alpha | Refactor |
-| 2 | Nexus-A2A-protocol | [bundle](./Nexus-A2A-protocol/healthcare-pain-points.md) | Stable | Refactor (add matrices, visual tests) |
-| 3 | REA-Agent-mcp | [bundle](./REA-Agent-mcp/healthcare-pain-points.md) | Stable | Self-host SRS for healthcare features |
-| 4 | caid-agent | [bundle](./caid-agent/healthcare-pain-points.md) | Alpha | Refactor (canonicalise existing 732 tests) |
-| 5 | prompt-engine | [bundle](./prompt-engine/healthcare-pain-points.md) | Beta | Refactor + add docs |
-| 6 | clinical-pathways | [bundle](./clinical-pathways/healthcare-pain-points.md) | **Stub** | **Greenfield** |
-| 7 | appointment-system | [bundle](./appointment-system/healthcare-pain-points.md) | **Stub** | **Greenfield** |
-| 8 | signalbox-mcp | [bundle](./signalbox-mcp/healthcare-pain-points.md) | Beta | Refactor + add CLAUDE.md, scenarios |
+| 1 | global-agent-registry (GHARRA) | [bundle](./global-agent-registry/global-agent-registry-healthcare-pain-points.md) | Alpha | Refactor |
+| 2 | Nexus-A2A-protocol | [bundle](./Nexus-A2A-protocol/nexus-a2a-protocol-healthcare-pain-points.md) | Stable | Refactor (add matrices, visual tests) |
+| 3 | REA-Agent-mcp | [bundle](./REA-Agent-mcp/rea-agent-mcp-healthcare-pain-points.md) | Stable | Self-host SRS for healthcare features |
+| 4 | caid-agent | [bundle](./caid-agent/caid-agent-healthcare-pain-points.md) | Alpha | Refactor (canonicalise existing 732 tests) |
+| 5 | prompt-engine | [bundle](./prompt-engine/prompt-engine-healthcare-pain-points.md) | Beta | Refactor + add docs |
+| 6 | clinical-pathways | [bundle](./clinical-pathways/clinical-pathways-healthcare-pain-points.md) | **Stub** | **Greenfield** |
+| 7 | appointment-system | [bundle](./appointment-system/appt-sys-healthcare-pain-points.md) | **Stub** | **Greenfield** |
+| 8 | signalbox-mcp | [bundle](./signalbox-mcp/signalbox-mcp-healthcare-pain-points.md) | Beta | Refactor + add CLAUDE.md, scenarios |
 | 9 | symphonix-health | [bundle](./symphonix-health/healthcare-pain-points.md) | Partial | Hub-layer additions |
-| 10 | bullettrain assistant + voice | [bundle](./bullettrain-assistant-voice/healthcare-pain-points.md) | Partial | Add ambient-scribe scenarios |
-| 11 | mcp_care | [bundle](./mcp_care/healthcare-pain-points.md) | Partial | Refactor + docs |
+| 10 | bullettrain assistant + voice | [bundle](./bullettrain-assistant-voice/bt-voice-asst-healthcare-pain-points.md) | Partial | Add ambient-scribe scenarios |
+| 11 | mcp_care | [bundle](./mcp_care/mcp-care-healthcare-pain-points.md) | Partial | Refactor + docs |
 
 ## How to run Phase B
 

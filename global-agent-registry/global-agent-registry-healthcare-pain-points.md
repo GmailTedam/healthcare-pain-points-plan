@@ -54,7 +54,7 @@ Actor: Any consumer. Flow: Query during outage → root returns cached entries m
 
 ## 5. SESSION PROMPT (paste into fresh Claude Code session opened in this repo)
 
-> You are continuing the workspace-wide healthcare pain-points refactor for **global-agent-registry (GHARRA)**. Read `~/health-agent-workspace/_workspace_plans/global-agent-registry/healthcare-pain-points.md` end-to-end before any action. Follow phases strictly:
+> You are continuing the workspace-wide healthcare pain-points refactor for **global-agent-registry (GHARRA)**. Read `~/health-agent-workspace/_workspace_plans/global-agent-registry/global-agent-registry-healthcare-pain-points.md` end-to-end before any action. Follow phases strictly:
 >
 > 1. Back up everything you will modify to `versions/v2/`.
 > 2. Materialise the bundle into `plans/healthcare-pain-points/` as separate files (REQUIREMENTS.md, USE_CASES.md, IMPLEMENTATION_PLAN.md, DOC_UPDATES.md, traceability-matrix.csv with header).

@@ -26,7 +26,7 @@ mcp_care exposes BT care services through MCP for downstream agents. Lacks READM
 1. Backup. 2. Generate README + CLAUDE.md. 3. Materialise bundle. 4. test-matrix-generator ×4. 5. Implement OAuth scope enforcement. 6. GHARRA card publisher. 7. 100% pass. 8. Docs.
 
 ## 5. SESSION PROMPT
-> Continue workspace healthcare pain-points refactor for **mcp_care**. Read `~/health-agent-workspace/_workspace_plans/mcp_care/healthcare-pain-points.md`. Back up to `versions/v2/`. Generate NEW README.md and NEW CLAUDE.md. Materialise bundle. Run `test-matrix-generator` per UC (UC-MC-01..04) → ≥100 scenarios each. Run `v-model-test`. Implement OAuth scope enforcement, GHARRA card publisher. Use REAL BT FHIR + data-quality-api + GHARRA — no mocks. Run scenarios at 100% pass. Update INTEROP.md. Honour all workspace memory rules.
+> Continue workspace healthcare pain-points refactor for **mcp_care**. Read `~/health-agent-workspace/_workspace_plans/mcp_care/mcp-care-healthcare-pain-points.md`. Back up to `versions/v2/`. Generate NEW README.md and NEW CLAUDE.md. Materialise bundle. Run `test-matrix-generator` per UC (UC-MC-01..04) → ≥100 scenarios each. Run `v-model-test`. Implement OAuth scope enforcement, GHARRA card publisher. Use REAL BT FHIR + data-quality-api + GHARRA — no mocks. Run scenarios at 100% pass. Update INTEROP.md. Honour all workspace memory rules.
 
 ## 6. DOC_UPDATES
 NEW README.md, NEW CLAUDE.md, docs/mcp-tools.md, docs/test-strategy.md, INTEROP.md.

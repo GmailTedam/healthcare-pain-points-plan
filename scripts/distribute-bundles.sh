@@ -18,20 +18,21 @@ BT="${BT:-$HOME/bt/BulletTrain}"
 DRY=0
 [[ "${1:-}" == "--dry-run" ]] && DRY=1
 
-# bundle_dir_in_plans_repo  →  target_repo_root  (target_subdir is always plans/healthcare-pain-points/)
+# bundle_dir_in_plans_repo | bundle_filename | target_repo_root
+# (target_subdir is always plans/healthcare-pain-points/)
 declare -a MAP=(
-  "global-agent-registry|$WS/global-agent-registry"
-  "Nexus-A2A-protocol|$WS/Nexus-A2A-protocol"
-  "REA-Agent-mcp|$WS/REA-Agent-mcp"
-  "caid-agent|$WS/caid-agent"
-  "prompt-engine|$WS/prompt-engine"
-  "clinical-pathways|$WS/clinical-pathways"
-  "appointment-system|$WS/appointment-system"
-  "signalbox-mcp|$WS/signalbox-mcp"
-  "symphonix-health|$HOME/symphonix-health"
-  "bullettrain-assistant-voice|$BT/bullettrain/assistant"
-  "bullettrain-assistant-voice|$BT/bullettrain/voice"
-  "mcp_care|$BT/mcp_care"
+  "global-agent-registry|global-agent-registry-healthcare-pain-points.md|$WS/global-agent-registry"
+  "Nexus-A2A-protocol|nexus-a2a-protocol-healthcare-pain-points.md|$WS/Nexus-A2A-protocol"
+  "REA-Agent-mcp|rea-agent-mcp-healthcare-pain-points.md|$WS/REA-Agent-mcp"
+  "caid-agent|caid-agent-healthcare-pain-points.md|$WS/caid-agent"
+  "prompt-engine|prompt-engine-healthcare-pain-points.md|$WS/prompt-engine"
+  "clinical-pathways|clinical-pathways-healthcare-pain-points.md|$WS/clinical-pathways"
+  "appointment-system|appt-sys-healthcare-pain-points.md|$WS/appointment-system"
+  "signalbox-mcp|signalbox-mcp-healthcare-pain-points.md|$WS/signalbox-mcp"
+  "symphonix-health|healthcare-pain-points.md|$HOME/symphonix-health"
+  "bullettrain-assistant-voice|bt-voice-asst-healthcare-pain-points.md|$BT/bullettrain/assistant"
+  "bullettrain-assistant-voice|bt-voice-asst-healthcare-pain-points.md|$BT/bullettrain/voice"
+  "mcp_care|mcp-care-healthcare-pain-points.md|$BT/mcp_care"
 )
 
 next_version_dir() {
@@ -48,8 +49,10 @@ run() {
 ok=0; skip=0; fail=0
 for entry in "${MAP[@]}"; do
   src_dir="${entry%%|*}"
-  dst_repo="${entry##*|}"
-  src_file="$PLANS_DIR/$src_dir/healthcare-pain-points.md"
+  rest="${entry#*|}"
+  src_name="${rest%%|*}"
+  dst_repo="${rest##*|}"
+  src_file="$PLANS_DIR/$src_dir/$src_name"
   dst_dir="$dst_repo/plans/healthcare-pain-points"
   dst_file="$dst_dir/BUNDLE.md"
 
@@ -76,7 +79,7 @@ for entry in "${MAP[@]}"; do
   cat_msg="# Healthcare Pain-Points Bundle
 
 Source of truth: https://github.com/GmailTedam/healthcare-pain-points-plan
-Bundle: \`$src_dir/healthcare-pain-points.md\`
+Bundle: \`$src_dir/$src_name\`
 
 To start Phase B in a fresh Claude Code session, paste the **SESSION PROMPT**
 section (§5) of \`BUNDLE.md\` and follow it.

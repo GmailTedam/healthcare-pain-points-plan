@@ -27,17 +27,17 @@ The original research mapped every pain point onto BulletTrain services. BT is t
 
 | Repo | Role in the death-spiral fight | Current state | Bundle path |
 |---|---|---|---|
-| **global-agent-registry (GHARRA)** | Turn the "907 insurers" problem into a discovery problem; 3-tier federation | Alpha — no canonical scenarios, no V-model | [bundle](./global-agent-registry/healthcare-pain-points.md) |
-| **Nexus-A2A-protocol** | Cross-org agent choreography (PA negotiation, referrals, claims) | Stable — no 14-col matrices, no visual tests | [bundle](./Nexus-A2A-protocol/healthcare-pain-points.md) |
-| **REA-Agent-mcp** | ISO 29148 SRS generator + legacy/fax→FHIR bridge | Stable — needs own healthcare SRS coverage | [bundle](./REA-Agent-mcp/healthcare-pain-points.md) |
-| **caid-agent** | Patient/clinician-side advocacy + dev SDLC for new agents | Alpha — 732 tests, no canonical traceability | [bundle](./caid-agent/healthcare-pain-points.md) |
-| **prompt-engine** | Templated extraction/generation (appeals, summaries) | Beta — no docs, no scenarios | [bundle](./prompt-engine/healthcare-pain-points.md) |
-| **clinical-pathways** | Pathway-driven referrals + decision support | **Stub — greenfield** | [bundle](./clinical-pathways/healthcare-pain-points.md) |
-| **appointment-system** | Specialist discovery + booking | **Stub — greenfield** | [bundle](./appointment-system/healthcare-pain-points.md) |
-| **signalbox-mcp** | Signed clinical signals + browser-attested evidence | Beta — no CLAUDE.md, no scenarios | [bundle](./signalbox-mcp/healthcare-pain-points.md) |
+| **global-agent-registry (GHARRA)** | Turn the "907 insurers" problem into a discovery problem; 3-tier federation | Alpha — no canonical scenarios, no V-model | [bundle](./global-agent-registry/global-agent-registry-healthcare-pain-points.md) |
+| **Nexus-A2A-protocol** | Cross-org agent choreography (PA negotiation, referrals, claims) | Stable — no 14-col matrices, no visual tests | [bundle](./Nexus-A2A-protocol/nexus-a2a-protocol-healthcare-pain-points.md) |
+| **REA-Agent-mcp** | ISO 29148 SRS generator + legacy/fax→FHIR bridge | Stable — needs own healthcare SRS coverage | [bundle](./REA-Agent-mcp/rea-agent-mcp-healthcare-pain-points.md) |
+| **caid-agent** | Patient/clinician-side advocacy + dev SDLC for new agents | Alpha — 732 tests, no canonical traceability | [bundle](./caid-agent/caid-agent-healthcare-pain-points.md) |
+| **prompt-engine** | Templated extraction/generation (appeals, summaries) | Beta — no docs, no scenarios | [bundle](./prompt-engine/prompt-engine-healthcare-pain-points.md) |
+| **clinical-pathways** | Pathway-driven referrals + decision support | **Stub — greenfield** | [bundle](./clinical-pathways/clinical-pathways-healthcare-pain-points.md) |
+| **appointment-system** | Specialist discovery + booking | **Stub — greenfield** | [bundle](./appointment-system/appt-sys-healthcare-pain-points.md) |
+| **signalbox-mcp** | Signed clinical signals + browser-attested evidence | Beta — no CLAUDE.md, no scenarios | [bundle](./signalbox-mcp/signalbox-mcp-healthcare-pain-points.md) |
 | **symphonix-health** | Federated hub layer above BT | Partial (BT symlink) | [bundle](./symphonix-health/healthcare-pain-points.md) |
-| **bullettrain assistant + voice** | Ambient scribe → FHIR | Partial | [bundle](./bullettrain-assistant-voice/healthcare-pain-points.md) |
-| **mcp_care** | MCP surface over BT care services | Partial — no README/CLAUDE.md | [bundle](./mcp_care/healthcare-pain-points.md) |
+| **bullettrain assistant + voice** | Ambient scribe → FHIR | Partial | [bundle](./bullettrain-assistant-voice/bt-voice-asst-healthcare-pain-points.md) |
+| **mcp_care** | MCP surface over BT care services | Partial — no README/CLAUDE.md | [bundle](./mcp_care/mcp-care-healthcare-pain-points.md) |
 
 ## Re-framed thesis
 
